@@ -1,0 +1,48 @@
+{
+  "override_accounts":[
+    {
+      "type":"depository",
+      "subtype":"checking",
+      "starting_balance": 6543.23,
+      "meta":{
+        "name":"STRIPE TEST BANK",
+        "official_name":"United State STRIPE TEST BANK setup for successful Payouts."
+      },
+      "numbers":{
+        "account":"000123456789",
+        "ach_routing": "110000000"
+      },
+      "identity":{
+        "names":[
+          "Jane Doe"
+        ],
+        "phone_numbers": [
+          {
+            "data":"9084581209",
+            "primary":true,
+            "type":"mobile"
+          }
+        ],
+        "emails": [
+          {
+            "data":"jdoe@squarespace.com",
+            "primary":true,
+            "type":"primary"
+          }
+        ],
+        "addresses":[
+          {
+            "data":{
+              "city":"New York",
+              "country":"US",
+              "postal_code":"10014",
+              "region":"NY",
+              "street":"8 Clarkson Street"
+            },
+            "primary":true
+          }
+        ]
+      }
+    }
+  ]
+}
